@@ -1,0 +1,30 @@
+@import '../../colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+.container {
+    padding: 14px 19px;
+    border: none;
+    background-color: $primaryHoverColor;
+    color: $white;
+    font-weight: 600;
+    font-family: "Noto Sans Georgian", sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container:disabled {
+    background-color: $outline;
+    color: #828282;
+    cursor: default;
+}
+.container:active:enabled {
+    background-color: $primaryColor;
+}
+.bigFont {
+    font-size: 20px;
+}
+.smallFont {
+    font-size: 10px;
+}
+.mediumFont {
+    font-size: 17px;
+}
